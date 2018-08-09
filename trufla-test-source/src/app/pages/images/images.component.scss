@@ -1,0 +1,35 @@
+.images-container {
+    padding: 10px 20px;
+    
+    .filter-images {
+        width: 100%;
+    }
+    
+    .images-table {
+        width: 100%;
+        th{
+            &.image-id{
+                width: 100px;
+            }
+            
+            &.image-url{
+                width: 100px;
+            }
+        }
+        td{
+            &.mat-column-Image {
+                padding: 10px;
+                padding-right: 24px;
+
+                .image-thumb{
+                    width: 80px;
+                    height: 80px;
+                    border: 1px solid #e0e0e0;
+                    border-radius: 4px;
+                    padding:3px
+                }
+                
+            }
+        }
+    }
+}
